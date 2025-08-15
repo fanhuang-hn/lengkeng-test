@@ -1,0 +1,21 @@
+{
+  "name": "lengkeng-test",
+  "version": "1.0.0",
+  "description": "Playwright tests for lengkeng-dev.hocai.fun login functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "install-browsers": "playwright install"
+  },
+  "keywords": ["playwright", "testing", "login", "automation"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "playwright": "^1.54.2"
+  }
+}
